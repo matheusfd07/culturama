@@ -131,11 +131,35 @@
                 <input id="favoriteColor" name="useFavoriteColor" type="color">
                 <br>
                 
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Comentários</legend>
+                <p>O que você acha da qualidade do nosso serviço?</p>
+                <br>
+                <input id="feedbackOtimo" type="radio" name="userFeedback" value="otimo">
+                <label for="feedbackOtimo">Ótimo!</label>
+                <br>
+                <input id="feedbackBom" type="radio" name="userFeedback" value="bom">
+                <label for="feedbackBom">Bom</label>
+                <br>
+                <input id="feedbackNeutro" type="radio" name="userFeedback" value="neutro">
+                <label for="feedbackNeutro">Neutro</label>
+                <br>
+                <input id="feedbackRuim" type="radio" name="userFeedback" value="ruim">
+                <label for="feedbackRuim">Ruim</label>
+                <br>
+                <input id="feedbackPessimo" type="radio" name="userFeedback" value="pessimo">
+                <label for="feedbackPessimo">Péssimo!</label>
+                <br>
+                <p>Deixe sua opinião mais detalhada no campo abaixo:</p>
+                <textarea name="mensagem" rows="6" cols="50" placeholder="Digite seu texto aqui..."></textarea>
 
             </fieldset>
 
             <br>
             <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
 
         </form>
     </section>
